@@ -15,7 +15,7 @@ ul{
 }
 
 .menu-size {
-	font-size: 12px;
+	font-size: 20px;
 	font-style: bold;
 }
 
@@ -37,6 +37,16 @@ header{
 	background: #48749c;
 	padding:10px 0px;
 }
+.header-size {
+	width: auto;
+	height: 40px;
+}
+
+.footer-size {
+	width: auto;
+	height: 60px;
+}
+
 .icon{
 	float:left;
 	width:10%;
@@ -45,7 +55,7 @@ header{
 	margin-left:5px;
 }
 .top{
-	width:80%;
+	
 	float:left;
 	text-align: center
 }
@@ -59,8 +69,9 @@ header{
 	width:100%;
 }
 .sign{
-	float:right;
-	width:10%;
+	float: right;
+	height: 50px;
+	width:auto;
 	font-weight:bold;
 }
 .title{
@@ -118,13 +129,16 @@ h3{
 	border:1px solid #0c86f4;
 }
 footer{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background: #48749c;
-	padding:30px 0px;
+	padding:10px 0px;
+	height: 50px;
 	width:100%;
 	
 	line-height:60px;
 }
 .bottom{
+	height: 70px;
 	width:25%;
 	float:left;
 }
@@ -168,11 +182,10 @@ footer{
 }
 .liebiao{
 	position: absolute;
-	top:57px;
+	top:50px;
 	left:0px;
 	z-index:999;
-	width:100px;
-	height:240px;
+	width:200px;
 	
 	background: #48749c
 }
@@ -214,6 +227,9 @@ footer{
 	float:left;
 	margin-left:10%;
 }
+
+
+
 .toper ul li{
 	width:31%;
 	float:left;
